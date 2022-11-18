@@ -44,6 +44,7 @@ header nav .menu {
 .card {
     grid-area: 1fr;
     display: flex;
+    margin-bottom: 10px;
     justify-content: space-between;
     flex-direction: row;
     color: aliceblue;
@@ -59,20 +60,23 @@ header nav .menu {
 }
 
 .card .description {
+    margin-right: -10rem;
     padding-top: 8px;
-    width: 50%;
+    width: 5em;
     margin-right: 4px;
 }
 
 .card h2 {
-    font-size: .7rem;
+    font-size: 1.4rem;
 }
+
+
 
 .card .type {
     margin: .4em;
     padding: 2px 1em 2px 1em;
     border-radius: 10px;
-    font-size: 0.4rem;
+    font-size: 0.6rem;
     display: block;
     width: 5em;
 }
@@ -89,11 +93,14 @@ header nav .menu {
 .card .image {
     margin-top: 10px;
     display: flex;
+    flex-direction: column;
     align-items: flex-end;
 }
 
 .card .image img{    
     margin-right: 8px;
     padding: .2em;
-    width: 100%
+    width: 70%
+
 }
+
